@@ -15,5 +15,7 @@ print("Jezyki: \nPython\nC\nJavaScript")
 print("Jezyki: \n\tPython\n\tC\n\tJavaScript")
 favorite_language = "python "
 print(favorite_language)
-favorite_language.rstrip()
+favorite_language = favorite_language.rstrip()
 print(favorite_language)
+message = "Dla programisty Johna O'Harry jedną z zalet pythona jest jego wszechstronność i oddana mu społeczność."
+print(message)
