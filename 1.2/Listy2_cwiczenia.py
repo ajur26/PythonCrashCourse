@@ -30,6 +30,7 @@ print('Aktualna lista zaproszonych: ' + ', '.join(guests))
 nieprzyjdzie = guests.pop(0)
 print(nieprzyjdzie + ' Bardzo przepraszam, ale nie moge Cie zaprosic')
 print('Aktualna lista zaproszonych: ' + ', '.join(guests))
+print(len(guests))
 print('Niezmiernie mi miło ' + guests[0] + ' zaprosic Cię na obiad')
 print('Niezmiernie mi miło ' + guests[1] + ' zaprosic Cię na obiad')
 del guests[0]
