@@ -1,0 +1,29 @@
+places = ['Rzym', 'Los Angeles', 'Warszawa', 'Peczerzyno', 'Torun']
+print(places)
+print(sorted(places))
+print(places)
+print(sorted(places, reverse=True))
+print(places)
+places.reverse()
+print(places)
+places.reverse()
+print(places)
+places.sort()
+print(places)
+places.sort(reverse=True)
+print(places)
+
+lista = ['Andrzej', 'Bartosz', 'Cyryl', 'Dariusz', 'Eustachy', 'Franciszek']
+print(lista[0].lower())
+lista.append('gabriel')
+print(lista)
+lista.insert(1, 'Marcin')
+print(lista)
+del lista[0]
+print(lista)
+lista.pop()
+print(lista)
+lista.pop(0)
+print(lista)
+blednaLista = ['kot', 'pies']
+print(blednaLista[2])
