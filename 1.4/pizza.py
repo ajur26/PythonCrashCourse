@@ -41,3 +41,16 @@ print(sum(digits))
 
 squares2 = [value**2 for value in range(10,21)]
 print(squares2)
+
+friends_pizza = pizzas[:]
+
+pizzas.append('swojska')
+friends_pizza.append('weganska')
+print('moje ulubione pizze to: ')
+for pizza in pizzas[1:]:
+    print(pizza)
+
+print('Pizze mojego zioma to:')
+
+for pizza in friends_pizza[1:]:
+    print(pizza)
